@@ -1,0 +1,38 @@
+{
+  "userSays": [
+    {
+      "id": "017a29fd-4148-496d-b84b-36058eb1f705",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "de0f1582-8ad3-46d1-885f-c10950c8e479",
+  "name": "end-add-flowers-bouquet",
+  "auto": true,
+  "contexts": [
+    "yes-compose-next-addFlowers"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Superb!! Done preparing your bouqet. You can now buy it."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

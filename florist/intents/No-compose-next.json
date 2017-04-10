@@ -1,0 +1,44 @@
+{
+  "userSays": [
+    {
+      "id": "2a952ab4-91c7-489a-a4c7-224b881e4576",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "29870801-0a3a-4e22-b124-22dd4b10574c",
+  "name": "No-compose-next",
+  "auto": true,
+  "contexts": [
+    "yes-compose-no"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "no-compose-next",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sure! I can offer various bouquets for different occasions. For which ocassion do you need one?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

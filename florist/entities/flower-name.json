@@ -1,0 +1,36 @@
+{
+  "id": "f4a0c766-1da1-4794-aeac-f9c63c1f007b",
+  "name": "flower-name",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "roses",
+      "synonyms": [
+        "roses",
+        "rose"
+      ]
+    },
+    {
+      "value": "Sunflower",
+      "synonyms": [
+        "Sunflower",
+        "sunflowers"
+      ]
+    },
+    {
+      "value": "lily",
+      "synonyms": [
+        "lily",
+        "lilies"
+      ]
+    },
+    {
+      "value": "flowers",
+      "synonyms": [
+        "flowers"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "e51bda82-bf10-48c4-a6c6-bbf36f161834",
+  "name": "ocassion-birthday",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Birthday",
+      "synonyms": [
+        "Birthday"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

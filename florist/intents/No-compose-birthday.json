@@ -1,0 +1,38 @@
+{
+  "userSays": [
+    {
+      "id": "1b98f5c4-a2f1-4d0c-b8a3-30b44d6d1e39",
+      "data": [
+        {
+          "text": "For Birthday, please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "151c6c3b-5fc5-438e-8534-e28139bb8649",
+  "name": "No-compose-birthday",
+  "auto": true,
+  "contexts": [
+    "no-compose-next"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Here you can choose a wonderful Birthday bouquet"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

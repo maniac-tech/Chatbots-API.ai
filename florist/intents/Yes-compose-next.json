@@ -1,0 +1,44 @@
+{
+  "userSays": [
+    {
+      "id": "22e49a33-e55c-47b5-9979-c75833b34381",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9e1d1008-7fab-4644-b186-fbf080b4ef44",
+  "name": "Yes-compose-next",
+  "auto": true,
+  "contexts": [
+    "yes-compose"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "yes-compose-next",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Alright! What kind of flowers would you like to add first ?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

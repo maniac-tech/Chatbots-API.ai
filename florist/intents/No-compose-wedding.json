@@ -1,0 +1,67 @@
+{
+  "userSays": [
+    {
+      "id": "1e7ef9ef-1bc3-412b-87c4-cd9c96368188",
+      "data": [
+        {
+          "text": "wedding",
+          "alias": "occassion-wedding",
+          "meta": "@occassion-wedding",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "98c7a2e7-b614-42b3-834c-5d0a84a6b921",
+      "data": [
+        {
+          "text": "For "
+        },
+        {
+          "text": "wedding",
+          "alias": "occassion-wedding",
+          "meta": "@occassion-wedding",
+          "userDefined": true
+        },
+        {
+          "text": ", please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "08e15af9-f945-4e5a-bc99-ca04ee7ab91b",
+  "name": "No-compose-wedding",
+  "auto": true,
+  "contexts": [
+    "no-compose-next"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@occassion-wedding",
+          "name": "occassion-wedding",
+          "value": "$occassion-wedding",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Here you can choose a wonderful bridal bouquet"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

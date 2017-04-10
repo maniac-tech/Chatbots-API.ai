@@ -1,0 +1,52 @@
+{
+  "userSays": [
+    {
+      "id": "7c146bf4-e6a5-42ed-9d19-f798a3472966",
+      "data": [
+        {
+          "text": "HI"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "27280a09-a057-4807-8730-6ff7b027eaa9",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2d1606df-d1d2-4e6d-8798-8fc61598ec4b",
+  "name": "greeting",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "compose",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hello! Would you like to buy a Bouquet?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

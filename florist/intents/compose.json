@@ -1,0 +1,42 @@
+{
+  "userSays": [
+    {
+      "id": "371e9d50-a656-4e3a-a392-9b5436ed8289",
+      "data": [
+        {
+          "text": "I want to buy a bouquet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "190af926-6968-4a2a-a560-f8083932b797",
+  "name": "compose",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "yes-compose",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Okay! Would you like to compose a bouquet yourself?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

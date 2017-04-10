@@ -1,0 +1,38 @@
+{
+  "userSays": [
+    {
+      "id": "45722520-27dc-449d-aa70-a98778e36a1f",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "62cdc9ed-ed94-435b-886b-836e9201208f",
+  "name": "No-compose",
+  "auto": true,
+  "contexts": [
+    "compose"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "No worries. Come back when you wish to buy one."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

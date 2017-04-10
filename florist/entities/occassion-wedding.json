@@ -1,0 +1,17 @@
+{
+  "id": "50c6da2f-f890-43c6-bc97-fd7331463e9c",
+  "name": "occassion-wedding",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "wedding",
+      "synonyms": [
+        "wedding",
+        "weddings",
+        "marraige"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}
